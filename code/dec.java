@@ -1,0 +1,12 @@
+class dec {
+    public static void main(String[] args)
+    {
+        int a = 5;
+        int b = 7;
+        int c = ++a + b++; // 6+7
+        System.out.println(c);//13
+        System.out.println(a);//6
+        System.out.println(b);//8
+        System.out.println(c);//7+8=15
+    }
+}
