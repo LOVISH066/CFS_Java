@@ -5,6 +5,10 @@ class conditional {
         b=(a==11)? 30:40;
         System.out.println(b);// 30-true
 
+        a=(b==20)? 43:32;
+        //         fslse. true
+        System.out.println(a);
+
         b=(a!=10)? 30:40; // true 30
         System.out.println(b);
     }
