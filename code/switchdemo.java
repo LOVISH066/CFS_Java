@@ -31,7 +31,7 @@ class switchdemo {
                 System.out.println("Sunday");
                 break;
             default:
-                System.out.println("Wrong entry");
+                System.out.println("Wrong entry try again");
         }
     }    
 }
